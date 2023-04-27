@@ -37,3 +37,8 @@ Answer format:
 ```HTML
 <EQN $PAD='calc'; $CASGRADER='mathematica';>x: <eqn $a + $b> {tab} <g:Exact>
 ```
+
+Union of intervals:
+```HTML
+<EQN>$PAD='calc'; $CASGRADER='mathematica'; $KEY_IMAGE_DISPLAY='(-\infty, $a), ($b, \infty)'; ''</EQN>WAUnion[WAInterval["(",-Infinity,<EQN $a>,")"], WAInterval["(",<EQN $b>,Infinity,")"]] {tab} optInterval = {SIMPLIFY -> False, TOLERANCE -> "0", ENDPOINTS -> False}; <g:optInterval>
+```
