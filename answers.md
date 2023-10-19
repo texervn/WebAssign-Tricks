@@ -19,6 +19,11 @@ Or
 <EQN $PAD='calc';$CASGRADER='mathematica';$KEY_DISPLAY='commalist';''>{<EQN $a>, <EQN $b>} {tab} GradeList[Hold[key], Hold[{response}], CONTENTS -> number, FORM -> unordered] && Length[key] == Length[{response}]
 ```
 
+# The point has specific order:
+```
+<EQN $PAD = 'calc'; $CASGRADER = 'mathematica'; $KEY_DISPLAY = 'commalist'; ''>{<EQN $a>Sqrt[3]/3, <EQN -5*$a**4 + 9*$d>/9} {tab} GradeList[Hold[key], Hold[{response}], CONTENTS -> number, FORM -> ordered, TOLERANCE->0] && Length[key] == Length[{response}]
+```
+
 # Multiple choice with figures:
 
 ```html
