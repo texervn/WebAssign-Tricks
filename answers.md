@@ -33,3 +33,4 @@ Or
         </tr>
     </table>
 ```
+We need to use `<SECTION nobr>` in the question source and `<SECTION><EQN $SET_EACH_POSITION = 1;''>` in the answer box.
