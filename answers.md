@@ -18,3 +18,18 @@ Or
 ```html
 <EQN $PAD='calc';$CASGRADER='mathematica';$KEY_DISPLAY='commalist';''>{<EQN $a>, <EQN $b>} {tab} GradeList[Hold[key], Hold[{response}], CONTENTS -> number, FORM -> unordered] && Length[key] == Length[{response}]
 ```
+
+# Multiple choice with figures:
+
+```html
+<table class="indent plotmc">
+        <tr>
+            <td> <_> </td>
+            <td> <_> </td>
+        </tr>
+        <tr>
+            <td> <_> </td>
+            <td> <_> </td>
+        </tr>
+    </table>
+```
