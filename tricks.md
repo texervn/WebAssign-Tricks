@@ -61,3 +61,13 @@ $$\frac{d}{dx}\left(\sec^{-1}(x)\right) = \frac{1}{x\sqrt{x^2-1}}.$$
     </div>
 </div>
 ```
+
+# Perl array:
+
+```Perl
+$i = randnum(0,1,1);
+@fn = ('\\arcsin', '\\arctan');
+@solns = ('<eqn $ab>/Sqrt[1 - (<eqn $a>x)^2]', '<eqn $ab>/(1 + (<eqn $a>x)^2)');
+$fx = $fn[$i];
+$ans = $solns[$i];
+```
