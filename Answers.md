@@ -16,5 +16,5 @@
 Or
 
 ```html
-<EQN $PAD='calc';$CASGRADER='mathematica';$KEY_DISPLAY='commalist';''>{<EQN $a>} {tab} GradeList[Hold[key], Hold[{response}], CONTENTS -> number, FORM -> unordered] && Length[key] == Length[{response}]
+<EQN $PAD='calc';$CASGRADER='mathematica';$KEY_DISPLAY='commalist';''>{<EQN $a>, <EQN $b>} {tab} GradeList[Hold[key], Hold[{response}], CONTENTS -> number, FORM -> unordered] && Length[key] == Length[{response}]
 ```
