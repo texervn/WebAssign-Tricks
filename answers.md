@@ -6,6 +6,11 @@
 <EQN $PAD = 'calc'; $CASGRADER = 'mathematica'; $KEY_IMAGE_DISPLAY = '(-\infty, 0]'; ''>WAInterval["(", -Infinity, 0, "]"] {tab} optInterval = {SIMPLIFY -> False, TOLERANCE -> "0", ENDPOINTS -> True}; <g:optInterval>
 ```
 
+# Union of intervals:
+```HTML
+<EQN>$PAD='calc'; $CASGRADER='mathematica'; $KEY_IMAGE_DISPLAY='(-\infty, $a), ($b, \infty)'; ''</EQN>WAUnion[WAInterval["(",-Infinity,<EQN $a>,")"], WAInterval["(",<EQN $b>,Infinity,")"]] {tab} optInterval = {SIMPLIFY -> False, TOLERANCE -> "0", ENDPOINTS -> False}; <g:optInterval>
+```
+
 
 # The list (un-ordered):
 
