@@ -7,6 +7,10 @@
 <watex>\[F(x) = e^{${a}x \sin(${b}x)}\] </watex>
 </div>
 ```
+Or
+```html
+<span style="font-size:150%;"><watex>\[f(x) = ${fx}\]</watex></span>
+```
 
 # Box around the text:
 
