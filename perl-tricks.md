@@ -27,3 +27,10 @@ $i = randnum(0,1,1);
 $fx = $fn[$i];
 $ans = $solns[$i];
 ```
+
+
+# Bonus points:
+
+```html
+<eqn ($RESPONSE_NUM < 2) ? $POINTS * 1.05 : (2 < $RESPONSE_NUM) ? $POINTS * 0.7 : $POINTS>
+```
