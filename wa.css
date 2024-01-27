@@ -1,6 +1,6 @@
-<style>
-    .waQBox, .qContent {
-        font: normal 20px verdana, helvetica, sans-serif;
-    }
-</style>
+/* styles.css */
+
+.waQBox > .qUtility > .standard {
+    font: normal 20px verdana, helvetica, sans-serif;
+}
 
