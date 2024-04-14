@@ -1,6 +1,6 @@
-## Using Loops for creating problems
+# Using Loops for creating problems
 
-# While Loop:
+## While Loop:
 
 ```Perl
 <eqn>
@@ -18,7 +18,7 @@ $counter++;
 
 
 
-# Perl array:
+## Perl array:
 
 ```Perl
 $i = randnum(0,1,1);
@@ -29,13 +29,13 @@ $ans = $solns[$i];
 ```
 
 
-# Bonus points:
+## Bonus points:
 
 ```html
 <eqn ($RESPONSE_NUM < 2) ? $POINTS * 1.05 : (2 < $RESPONSE_NUM) ? $POINTS * 0.7 : $POINTS>
 ```
 
-# Mapping
+## Mapping
 
 ```PERL
 $dx = 0.1;
@@ -54,7 +54,7 @@ return $x**2;
 };
 ```
 
-# Pass array ref as arguments (good tips)
+## Pass array ref as arguments (good tips)
 
 ```PERL
 
@@ -77,3 +77,18 @@ sub gen_waplot {
     return $waplot_str;
 }
 ```
+
+
+## Function to split commas for numbers.
+
+```PERL
+	sub format_number {
+		my $number = shift;
+		$number =~ s/(?<=\d)(?=(?:\d{3})+$)/,/g;
+		return $number;
+	}
+```
+
+Or we can use the following simple function in Webassign: `commas`
+
+
